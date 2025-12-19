@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CryptoQuantized</title>
-  <meta name="description" content="CryptoQuantized builds scalable infrastructure for quantitative research, backtesting, and data-driven experimentation." />
+
+  <meta name="description"
+        content="CryptoQuantized is an early-stage project focused on building infrastructure for quantitative research, backtesting, and experimentation in crypto markets." />
+
   <link rel="icon" href="data:," />
 
   <style>
@@ -12,49 +15,49 @@
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-      background: #0b0f14;
+      background-color: #0b0f14;
       color: #e6eaf0;
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 880px;
       margin: 0 auto;
-      padding: 80px 24px;
+      padding: 72px 24px;
     }
 
     h1 {
-      font-size: 3rem;
-      margin-bottom: 12px;
+      font-size: 2.8rem;
+      margin-bottom: 16px;
       letter-spacing: -0.02em;
     }
 
     h2 {
-      margin-top: 64px;
-      font-size: 1.5rem;
+      margin-top: 56px;
+      font-size: 1.45rem;
       color: #c9d1d9;
     }
 
     p {
       max-width: 720px;
-      color: #b7c0cc;
       font-size: 1.05rem;
+      color: #b7c0cc;
     }
 
-    .tagline {
-      font-size: 1.2rem;
+    .intro {
+      font-size: 1.15rem;
       color: #9aa4b2;
-      max-width: 700px;
+      max-width: 760px;
     }
 
     .divider {
-      margin: 56px 0;
+      margin: 48px 0;
       height: 1px;
       background: linear-gradient(to right, transparent, #1f2937, transparent);
     }
 
     footer {
-      margin-top: 96px;
+      margin-top: 88px;
       font-size: 0.9rem;
       color: #7d8590;
     }
@@ -73,43 +76,58 @@
 <body>
   <div class="container">
     <h1>CryptoQuantized</h1>
-    <p class="tagline">
-      Building scalable infrastructure for quantitative research,
-      backtesting, and data-driven experimentation.
+
+    <p class="intro">
+      CryptoQuantized is an early-stage project focused on building internal
+      infrastructure for quantitative research and experimentation in
+      crypto markets.
     </p>
 
     <div class="divider"></div>
 
-    <h2>What We Do</h2>
+    <h2>What This Is</h2>
     <p>
-      CryptoQuantized develops tools and research infrastructure for
-      systematic analysis of financial markets. Our focus is on
-      reproducible research workflows, large-scale simulations,
-      and efficient experimentation for quantitative strategies.
+      The work centers on tooling for strategy research rather than production
+      trading. This includes backtesting ideas, running parameter sweeps,
+      managing datasets, and keeping research results reproducible over time.
     </p>
 
-    <h2>Technology & Infrastructure</h2>
     <p>
-      We design cloud-native systems to support compute-intensive workloads,
-      data processing pipelines, and iterative research. Our stack is built
-      to scale elastically and supports modern quantitative and
-      machine-learning workflows.
+      The objective is to reduce friction during the research phase so that
+      ideas can be tested, discarded, or refined quickly without relying on
+      long-running systems or manual processes.
+    </p>
+
+    <h2>Infrastructure Approach</h2>
+    <p>
+      Most workloads are bursty by nature: experiments run for short periods,
+      consume significant compute, and are torn down once results are produced.
+      The infrastructure is designed around this pattern rather than
+      continuously running services.
+    </p>
+
+    <p>
+      Cloud services are used primarily for elastic compute, object storage
+      for research artifacts, and isolated environments that make experiments
+      easier to reproduce and reason about.
     </p>
 
     <h2>Current Status</h2>
     <p>
-      CryptoQuantized is an early-stage, bootstrapped project in active
-      development. We are currently focused on research, prototyping,
-      and validating core infrastructure components.
+      CryptoQuantized is bootstrapped and in active development. The focus is
+      currently on research workflows, infrastructure reliability, and
+      validating assumptions before any external offering is considered.
     </p>
 
     <footer>
       <p>
-        Contact: <a href="mailto:hello@cryptoquantized.xyz">hello@cryptoquantized.xyz</a>
+        Contact:
+        <a href="mailto:hello@cryptoquantized.xyz">
+          hello@cryptoquantized.xyz
+        </a>
       </p>
       <p>© 2025 CryptoQuantized</p>
     </footer>
   </div>
 </body>
 </html>
-
